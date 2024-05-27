@@ -7,7 +7,7 @@
     </appender>
 
     <appender name="INFO_LOG" class="ch.qos.logback.core.rolling.RollingFileAppender">
-        <file>./info.log</file>
+        <file>./spring_log/info.log</file>
         <encoder>
             <pattern>%d{HH:mm:ss.SSS} [%thread] %-5level %logger{36} - %msg%n</pattern>
         </encoder>
@@ -27,7 +27,7 @@
     </appender>
 
     <appender name="WARN_LOG" class="ch.qos.logback.core.rolling.RollingFileAppender">
-        <file>./warn.log</file>
+        <file>./spring_log/warn.log</file>
         <encoder>
             <pattern>%d{HH:mm:ss.SSS} [%thread] %-5level %logger{36} - %msg%n</pattern>
         </encoder>
@@ -47,7 +47,7 @@
     </appender>
 
     <appender name="ERROR_LOG" class="ch.qos.logback.core.rolling.RollingFileAppender">
-        <file>./error.log</file>
+        <file>./spring_log/error.log</file>
         <encoder>
             <pattern>%d{HH:mm:ss.SSS} [%thread] %-5level %logger{36} - %msg%n</pattern>
         </encoder>
