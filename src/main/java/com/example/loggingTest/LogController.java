@@ -19,12 +19,6 @@ public class LogController {
         return "info log";
     }
 
-    @GetMapping("/error")
-    public String errorLog(){
-        log.error("error log");
-        return "error log";
-    }
-
     @GetMapping("/warn")
     public String warnLog(){
         log.warn("warn log");
